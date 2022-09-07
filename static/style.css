@@ -29,12 +29,17 @@ body {
     height: 70px;
 }
 
-.menu_cont1 .menu_logo_swingvy_links_tools span {
+.menu_cont1 .menu_logo_swingvy_links_tools a{
+    text-decoration: none;
+}
+
+.menu_cont1 .menu_logo_swingvy_links_tools a span {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 23px;
     letter-spacing: 1px;
     cursor: pointer;
+    color: #0A61F7;
 }
 
 .menu_cont1 .menu_logo_swingvy_links_tools .menu_links_tools {
@@ -45,11 +50,20 @@ body {
     height: 75px;
 }
 
-.menu_cont1 .menu_logo_swingvy_links_tools .menu_links_tools span {
+.menu_cont1 .menu_logo_swingvy_links_tools .menu_links_tools a {
+    text-decoration: none;
+}
+
+.menu_cont1 .menu_logo_swingvy_links_tools .menu_links_tools a span {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
     cursor: pointer;
+    color: #1C202B;
+}
+
+.menu_cont1 .menu_logo_swingvy_links_tools .menu_links_tools a span:hover {
+    color: #0A61F7;
 }
 
 .menu_cont1 .menu_login_out_request_btn {
@@ -59,11 +73,20 @@ body {
     width: 250px;
 }
 
-.menu_cont1 .menu_login_out_request_btn span {
+.menu_cont1 .menu_login_out_request_btn a{
+    text-decoration: none;
+}
+
+.menu_cont1 .menu_login_out_request_btn a span {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
     cursor: pointer;
+    color: #222222;
+}
+
+.menu_cont1 .menu_login_out_request_btn a span:hover {
+    color: #0A61F7;
 }
 
 .menu_cont1 .menu_login_out_request_btn .menu_request_btn {
@@ -82,7 +105,7 @@ body {
     cursor: pointer;
 }
 
-.menu_cont1 .comp_content{
+.menu_cont1 .comp_content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,25 +114,25 @@ body {
     flex-direction: column;
 }
 
-.menu_cont1 .comp_content .top_cont_img{
+.menu_cont1 .comp_content .top_cont_img {
     display: flex;
     justify-content: space-between;
     align-items: start;
     width: 100%;
 }
 
-.menu_cont1 .comp_content .middle_cont_img{
+.menu_cont1 .comp_content .middle_cont_img {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.menu_cont1 .comp_content .middle_cont_img .rectang_margin1{
+.menu_cont1 .comp_content .middle_cont_img .rectang_margin1 {
     margin-left: 120px;
 }
 
-.menu_cont1 .comp_content .middle_cont_img .middle_cont_btn{
+.menu_cont1 .comp_content .middle_cont_img .middle_cont_btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,7 +142,7 @@ body {
     margin-right: 100px;
 }
 
-.menu_cont1 .comp_content .middle_cont_btn .top_mid_spn{
+.menu_cont1 .comp_content .middle_cont_btn .top_mid_spn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +154,7 @@ body {
     margin-bottom: 20px;
 }
 
-.menu_cont1 .comp_content .middle_cont_btn .mid_spn{
+.menu_cont1 .comp_content .middle_cont_btn .mid_spn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +166,7 @@ body {
     margin-bottom: 30px;
 }
 
-.menu_cont1 .comp_content .middle_cont_btn .menu_request_btn2{
+.menu_cont1 .comp_content .middle_cont_btn .menu_request_btn2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,26 +182,27 @@ body {
     cursor: pointer;
 }
 
-.menu_cont1 .comp_content .middle_cont_img .rectang_margin2{
+.menu_cont1 .comp_content .middle_cont_img .rectang_margin2 {
     margin-top: 100px;
 }
 
-.menu_cont1 .comp_content .bottom_cont_img{
+.menu_cont1 .comp_content .bottom_cont_img {
     display: flex;
     justify-content: space-between;
     align-items: end;
     width: 100%;
 }
 
-.menu_cont1 .comp_content .platform_links_info_learn{
+.menu_cont1 .comp_content .platform_links_info_learn {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     flex-direction: column;
+    background-color: #FFFFFF;
 }
 
-.menu_cont1 .comp_content .platform_links_info_learn .platform_links{
+.menu_cont1 .comp_content .platform_links_info_learn .platform_links {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -187,7 +211,7 @@ body {
     margin-top: 100px;
 }
 
-.menu_cont1 .comp_content .platform_links_info_learn .platform_links span{
+.menu_cont1 .comp_content .platform_links_info_learn .platform_links span {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,7 +222,7 @@ body {
     margin-bottom: 20px;
 }
 
-.menu_cont1 .comp_content .platform_links_info_learn .platform_links .links_onboard_pay_support{
+.menu_cont1 .comp_content .platform_links_info_learn .platform_links .links_onboard_pay_support {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,25 +232,118 @@ body {
     color: #1C202B;
 }
 
-.menu_cont1 .comp_content .platform_links_info_learn .info_learn{
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     width: 70%;
 }
 
-.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn{
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 690px;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn .learn_block {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 250px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #222222;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn .learn_block:focus {
+    border: #0A61F7 solid 1px;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn .block_HR_Hub {
+    width: 250px;
+    margin-bottom: 10px;
+    background: #EAF3FF;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn .block_Leave {
+    margin-bottom: 10px;
+    background: #FFF8E4;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn .block_Time {
+    margin-bottom: 10px;
+    background: #FFF3EF;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn .block_Claims {
+    margin-bottom: 10px;
+    background: #E2FBF2;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn .block_Payroll {
+    margin-bottom: 10px;
+    background: #F1F1FC;
+
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn .block_Benefits {
+    margin-bottom: 10px;
+    background: #F3E5F5;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn .block_Mobile {
+    background: #FFE5ED;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_info {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 50px;
+    height: 690px;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_info img {
+    width: 686px;
+    height: 413px;
+    margin-top: 4px;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_info span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_info span a {
+    text-decoration: none;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_info button {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-}
-
-.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_info{
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 4px;
+    background: #0A61F7;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
 }
 
 
