@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 350px;
+    width: 380px;
     height: 75px;
 }
 
@@ -64,6 +64,10 @@ body {
 
 .menu_cont1 .menu_logo_swingvy_links_tools .menu_links_tools a span:hover {
     color: #0A61F7;
+}
+
+.menu_cont1 .menu_logo_swingvy_links_tools .menu_links_tools a svg:hover {
+    fill: #0A61F7;
 }
 
 .menu_cont1 .menu_login_out_request_btn {
@@ -100,9 +104,22 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #FFFF;
+    color: #FFFFFF;
     background: #0A61F7;
     cursor: pointer;
+}
+
+.menu_cont1 .menu_login_out_request_btn .menu_request_btn:hover {
+    color: #0A61F7;
+    background: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #1C202B;
+}
+
+.menu_cont1 .menu_login_out_request_btn .menu_request_btn:active {
+    background: #0A61F7;
+    color: #FFFFFF;
+    box-shadow: none;
 }
 
 .menu_cont1 .comp_content {
@@ -176,10 +193,23 @@ body {
     border-radius: 4px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     color: #FFFF;
     background: #0A61F7;
     cursor: pointer;
+}
+
+.menu_cont1 .comp_content .middle_cont_btn .menu_request_btn2:hover {
+    color: #0A61F7;
+    background: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #1C202B;
+}
+
+.menu_cont1 .comp_content .middle_cont_btn .menu_request_btn2:active {
+    background: #0A61F7;
+    color: #FFFFFF;
+    box-shadow: none;
 }
 
 .menu_cont1 .comp_content .middle_cont_img .rectang_margin2 {
@@ -261,6 +291,14 @@ body {
     color: #222222;
     padding-left: 10px;
     cursor: pointer;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn .learn_block:hover {
+    box-shadow: 2px 2px 7px #222222;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn .learn_block:active {
+    box-shadow: none;
 }
 
 .menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_learn .learn_block:focus {
