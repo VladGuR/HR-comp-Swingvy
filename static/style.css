@@ -3,6 +3,24 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar{
+    background: none;
+    width: 5px;
+    height: 100%;
+}
+
+::-webkit-scrollbar-button{
+    display: none;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: #657085;
+    margin-right: 5px;
+    width: 5px;
+    height: 100px;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -29,7 +47,7 @@ body {
     height: 70px;
 }
 
-.menu_cont1 .menu_logo_swingvy_links_tools a{
+.menu_cont1 .menu_logo_swingvy_links_tools a {
     text-decoration: none;
 }
 
@@ -77,7 +95,7 @@ body {
     width: 250px;
 }
 
-.menu_cont1 .menu_login_out_request_btn a{
+.menu_cont1 .menu_login_out_request_btn a {
     text-decoration: none;
 }
 
@@ -367,21 +385,168 @@ body {
     text-decoration: none;
 }
 
-.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_info button {
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_info .lear_more_btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 140px;
+    width: 170px;
+    height: 50px;
     border: none;
     border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFF;
+    background: #0A61F7;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_info .lear_more_btn:hover {
+    background: #FFFFFF;
+    color: #0A61F7;
+    box-shadow: 2px 2px 7px #222222;
+}
+
+.menu_cont1 .comp_content .platform_links_info_learn .info_learn .support_info .lear_more_btn:active {
     background: #0A61F7;
     color: #FFFFFF;
+    box-shadow: none;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin-bottom: 200px;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .span_descript_top {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 70%;
+    flex-direction: column;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .span_descript_top {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 70%;
+    flex-direction: column;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .span_descript_top .span_text_top {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 18px;
-    margin-top: 30px;
+    color: #657085;
+    margin-bottom: 20px;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .span_descript_top .span_text_bottom {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #1C202B;
+    margin-bottom: 80px;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees .SEO_photo_links_descript{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 0 100px;
+    flex-direction: column;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees .SEO_photo_links_descript img{
+    width: 240px;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees .SEO_photo_links_descript a{
+    text-decoration: none;
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0A61F7;
+    margin-bottom: 35px;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees .SEO_photo_links_descript span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1C202B;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees .HR_photo_links_descript{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-right: 100px;
+    flex-direction: column;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees .HR_photo_links_descript img{
+    width: 240px;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees .HR_photo_links_descript a{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0A61F7;
+    margin-bottom: 35px;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees .HR_photo_links_descript span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1C202B;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees .employees_photo_links_descript{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees .employees_photo_links_descript img{
+    width: 240px;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees .employees_photo_links_descript a{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0A61F7;
+    margin-bottom: 35px;
+}
+
+.menu_cont1 .comp_content .frame3_desript_all_employees .links_descript_all_employees .employees_photo_links_descript span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1C202B;
 }
 
 
