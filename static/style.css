@@ -549,6 +549,15 @@ body {
     color: #1C202B;
 }
 
+.menu_cont1 .comp_content .frame4_choose_swingvy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #FEC33E;
+    flex-direction: column;
+}
+
 
 
 
